@@ -5,6 +5,7 @@ import Touchable from "./components/Touchable";
 import Inputs from "./components/Inputs";
 import ScrollViewExample from "./components/ScrollViewExample";
 import HttpExample from "./components/HttpExample";
+import Butt from "./components/Butt";
 
 class App extends React.Component {
   state = {
@@ -32,7 +33,8 @@ class App extends React.Component {
           }}
           style={{ width: 200, height: 200 }}
         /> */}
-        <HttpExample/>
+        {/* <HttpExample/> */}
+        <Butt/>
       </View>
     );
   }
